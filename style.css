@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+}
+.background {
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+}
+main {
+    position: absolute;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+}
+.card {
+    position: relative;
+    width: 15rem;
+    height: 20rem;
+    background-color: #989191;
+    margin: 0 5rem;
+    transition-duration: 0.2s;
+    border: 4px solid #fff;
+    overflow: hidden;
+}
+
+.card img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+}

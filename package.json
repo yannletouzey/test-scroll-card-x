@@ -1,0 +1,21 @@
+{
+  "name": "scroll-x",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "clear": "rd -r dist /S /Q; rd -r .parcel-cache /S /Q;",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [],
+  "author": "Yann Letouzey",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  },
+  "dependencies": {
+    "scrollmagic": "^2.0.8",
+    "vercel": "^31.4.0"
+  }
+}
